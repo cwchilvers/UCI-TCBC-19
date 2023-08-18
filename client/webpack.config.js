@@ -20,25 +20,30 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      // Wepback plugin to generate HTML file and inject bundles
+      // Webpack plugin that generates our html file and injects our bundles. 
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'JATE'
+        title: 'JATE',
+        favicon: './favicon.ico'
       }),
-      // Inject service worker
+
+      // Injects our custom service worker
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
+
       // Create manifest file
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'JATE',
+        name: 'Just Another Text Editor',
         short_name: 'JATE',
-        description: 'Just Another Text Editor',
+        description: 'Takes notes with JavaScript syntax highlighting',
         background_color: '#225ca3',
         theme_color: '#225ca3',
+        orientation: 'portrait',
+        display: 'standalone',
         start_url: './',
         publicPath: './',
         icons: [
