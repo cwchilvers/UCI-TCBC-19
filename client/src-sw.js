@@ -29,7 +29,6 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 //* Implement asset caching
 registerRoute(
   ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
-  
   // Cache CSS and JS files with Stale While Revalidate strategy
   new StaleWhileRevalidate({
     // Name of the cache storage
