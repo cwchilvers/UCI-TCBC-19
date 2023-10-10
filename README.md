@@ -22,6 +22,8 @@
 ## Description
 This is web app that allows users to create, edit, and save text files. It is a PWA, so it can be installed on a mobile device and used offline. It uses IndexedDB to store files locally. It also uses Webpack and Babel to bundle and transpile the code. 
 
+[Original Starter Code](https://github.com/coding-boot-camp/cautious-meme.git)
+
 ## Requirements
 * Node.js
 
