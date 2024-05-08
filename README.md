@@ -27,7 +27,6 @@ This is web app that allows users to create, edit, and save text files. It is a 
 * Node.js
 
 ## Installation
-### Method 1
 1. Clone the repository
 ```
 git clone https://github.com/cwchilvers/PWA-Text-Editor.git
@@ -41,11 +40,6 @@ npm install
 npm start
 ```
 4. Open the app in a browser at `http://localhost:3000`
-
-<br>
-
-### Method 2
-Go to the [deployed app](https://apps.cwchilvers.io/).
 
 ## Usage
 The app can be used in a browser. The user can create, edit, and save text files. The user can also install the app and use it offline.
