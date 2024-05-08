@@ -8,6 +8,7 @@
     <img src="https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=for-the-badge" alt="Express.js">
     <img src="https://img.shields.io/badge/Webpack-8DD6F9.svg?style=for-the-badge&logo=Webpack&logoColor=black" alt="Webpack">
     <img src="https://img.shields.io/badge/Babel-F9DC3E.svg?style=for-the-badge&logo=Babel&logoColor=black" alt="Babel">
+    <img src="https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=fff&style=for-the-badge" alt="PWA">
 </p>
 
 <h4 align="center">A simple PWA text editor.</h4>
