@@ -4,6 +4,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+    <img src="https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=for-the-badge" alt="Express.js">
     <img src="https://img.shields.io/badge/Webpack-8DD6F9.svg?style=for-the-badge&logo=Webpack&logoColor=black" alt="Webpack">
     <img src="https://img.shields.io/badge/Babel-F9DC3E.svg?style=for-the-badge&logo=Babel&logoColor=black" alt="Babel">
 </p>
@@ -21,8 +22,6 @@
 
 ## Description
 This is web app that allows users to create, edit, and save text files. It is a PWA, so it can be installed on a mobile device and used offline. It uses IndexedDB to store files locally. It also uses Webpack and Babel to bundle and transpile the code. 
-
-[Original Starter Code](https://github.com/coding-boot-camp/cautious-meme.git)
 
 ## Requirements
 * Node.js
@@ -53,18 +52,15 @@ The app can be used in a browser. The user can create, edit, and save text files
 
 ## Technologies Used
 * JavaScript
-* Node.js
-* Express.js
-* Webpack
-* Babel
-* IndexedDB
-* PWA
-
-## Credits
+* [Node.js](https://nodejs.org/)
 * [Express.js](https://expressjs.com/)
 * [Webpack](https://webpack.js.org/)
 * [Babel](https://babeljs.io/)
 * [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
+* PWA
+
+## Credits
+* [Original Starter Code](https://github.com/coding-boot-camp/cautious-meme.git)
 
 ## Contact Information
 <p align="center">
